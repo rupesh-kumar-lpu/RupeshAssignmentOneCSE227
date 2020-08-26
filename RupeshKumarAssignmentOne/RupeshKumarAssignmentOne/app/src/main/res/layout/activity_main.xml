@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="391dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="60dp"
+        app:srcCompat="@drawable/bluehome" />
+
+
+
+    <EditText
+        android:id="@+id/fullname"
+        android:layout_width="220dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Full Name" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="220dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Email" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="220dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Password" />
+
+    <EditText
+        android:id="@+id/dateob"
+        android:layout_width="220dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_gravity="center_horizontal"
+        android:inputType="date"
+        android:hint="Date Of Birth" />
+    <EditText
+        android:id="@+id/phonenum"
+        android:layout_width="220dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_gravity="center_horizontal"
+        android:inputType="textPersonName"
+        android:hint="Phone Number" />
+
+    <EditText
+        android:id="@+id/phonenumalt"
+        android:layout_width="220dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_gravity="center_horizontal"
+        android:inputType="textPersonName"
+        android:hint="Alternate Phone Number" />
+
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:text="Register" />
+
+    <TextView
+        android:id="@+id/loginactitv"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Already have an Account? Log In" />
+</LinearLayout>

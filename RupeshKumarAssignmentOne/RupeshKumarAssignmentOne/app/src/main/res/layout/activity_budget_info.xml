@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.RupeshKumar11712081.homebudgetmanagement.BudgetInfo">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- ProgressBar that represents a total of 100% -->
+
+        <ProgressBar
+            android:id="@+id/background_progressbar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:indeterminate="false"
+            android:max="100"
+            android:progress="100"
+            android:progressDrawable="@drawable/stats_full"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- ProgressBar that represents a chart slice, where "android:progress" is the % value of the slice -->
+
+        <!-- The text that goes in a center of the chart -->
+
+        <ProgressBar
+            android:id="@+id/stats_progressbar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="359dp"
+            android:layout_height="455dp"
+            android:indeterminate="false"
+            android:max="100"
+            android:progress="75"
+            android:progressDrawable="@drawable/stats_progress"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/number_of_calories"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1500/2000"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.536"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.523" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Used Up / Total Budget"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="@+id/background_progressbar"
+            app:layout_constraintEnd_toEndOf="@+id/background_progressbar"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toStartOf="@+id/background_progressbar"
+            app:layout_constraintTop_toTopOf="@+id/background_progressbar"
+            app:layout_constraintVertical_bias="0.416" />
+
+        <TextView
+            android:id="@+id/rmaing_bal"
+            android:layout_width="270dp"
+            android:layout_height="32dp"
+            android:text="Remaining Balance"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/stats_progressbar"
+            app:layout_constraintHorizontal_bias="0.217"
+            app:layout_constraintStart_toStartOf="@+id/stats_progressbar"
+            app:layout_constraintTop_toTopOf="@+id/stats_progressbar"
+            app:layout_constraintVertical_bias="0.962" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

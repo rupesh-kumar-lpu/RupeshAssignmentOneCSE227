@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "979756233654",
+    "firebase_url": "https://rupeshkumarassignmentone.firebaseio.com",
+    "project_id": "rupeshkumarassignmentone",
+    "storage_bucket": "rupeshkumarassignmentone.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:979756233654:android:33351dc0d9b7c786e10717",
+        "android_client_info": {
+          "package_name": "com.example.rupeshkumarassignmentone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "979756233654-nsrjhd7p9b6vpp1lpjkn4nsavpcllume.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rupeshkumarassignmentone",
+            "certificate_hash": "efc4d1568378891a7a4a4af3f0d0d7bf0b620a84"
+          }
+        },
+        {
+          "client_id": "979756233654-gg57tfrfeborc885n2h1aur3ofqvd00a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAezgm_TyV0VmlyTQsG4m8tTN8-jMu_nw8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "979756233654-gg57tfrfeborc885n2h1aur3ofqvd00a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
